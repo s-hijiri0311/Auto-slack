@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/navigation_graph"
+            app:startDestination="@id/mainFragment">
+
+    <fragment android:id="@+id/mainFragment" android:name="com.hijiri.autoslack.MainFragment"
+              android:label="fragment_main" tools:layout="@layout/fragment_main">
+        <action android:id="@+id/action_mainFragment_to_configFragment" app:destination="@id/configFragment"/>
+    </fragment>
+    <fragment android:id="@+id/configFragment" android:name="com.hijiri.autoslack.ConfigFragment"
+              android:label="fragment_config" tools:layout="@layout/fragment_config"/>
+</navigation>
