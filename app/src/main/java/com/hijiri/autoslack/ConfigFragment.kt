@@ -25,8 +25,8 @@ class ConfigFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_config, container, false)
 
 
-        view.textView.setText(Html.fromHtml("<a href=\"https://slack.com/apps/A0F7XDUAZ-incoming-webhooks\">Webhook URL</a>"));
-        view.textView.setMovementMethod(LinkMovementMethod.getInstance());
+        view.textView.setText(Html.fromHtml("<a href=\"https://slack.com/apps/A0F7XDUAZ-incoming-webhooks\">Webhook URL</a>"))
+        view.textView.setMovementMethod(LinkMovementMethod.getInstance())
 
         return view
     }

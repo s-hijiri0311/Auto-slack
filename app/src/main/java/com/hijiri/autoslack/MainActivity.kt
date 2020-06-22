@@ -24,6 +24,8 @@ class MainActivity : AppCompatActivity() {
         // "num"から読み出す
         var num = dataStore.getInt("num",27)
 
+        
+
     }
 
 
